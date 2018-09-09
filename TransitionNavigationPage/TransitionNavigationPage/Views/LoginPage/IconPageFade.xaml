@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="TransitionNavigationPage.Views.LoginPage.IconPageFade">
+    <ContentPage.Content>
+        <Grid>
+        <Grid x:Name="SplashGrid" BackgroundColor="#ECEAE3">
+            <Image x:Name="Logo" Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center">
+                <Image.TranslationY>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">0</On>
+                        <On Platform="Android">-12</On>
+                    </OnPlatform>
+                </Image.TranslationY>
+            </Image>
+        </Grid>
+    </Grid>
+    </ContentPage.Content>
+</ContentPage>

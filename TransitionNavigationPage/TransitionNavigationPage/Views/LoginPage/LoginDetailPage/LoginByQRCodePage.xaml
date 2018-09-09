@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TransitionNavigationPage.Views.LoginPage.LoginDetailPage.LoginByQRCodePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#ECEAE3">
+            <StackLayout BackgroundColor=" White" Margin="20" Padding="20">
+                <!--  Buttons   -->
+                <Label AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Text="Enter QR Code" Font="Bold,20" TextColor="Black" />
+                <Entry AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" TextColor="Black"/>
+                <Button AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Text="Login" Font="Bold,20" HeightRequest="40" TextColor="White" BackgroundColor="#8d483a" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

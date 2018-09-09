@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TransitionNavigationPage.Views.LoginPage.LoginPage">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#ECEAE3" Orientation="Vertical">
+            <StackLayout>
+                <Image Source="headerimg.jpg" />
+                <Label HorizontalTextAlignment="Center" Text="Integrated Software Applications, Inc. was founded in 1997. Union Manager©, ISA’s flagship product was initially developed for IBEW Local 349 in Miami, Florida. Since then, ISA’s software has been deployed to Local Union Business Offices, Apprenticeship Training Facilities, and Union Trust Fund Offices throughout the United States and Canada." Margin="10" />
+                <AbsoluteLayout Margin="20,0,20,20" VerticalOptions="EndAndExpand" HeightRequest="200">
+                    <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="Fill" Source="TransparentBrown.png" Opacity="0.2" />
+                    <!--  Buttons   -->
+                    <Button AbsoluteLayout.LayoutBounds="0,0,1,60" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Text="Scan QR Code" Font="Bold,20" Margin="20,20,20,0" HeightRequest="50" TextColor="White" BackgroundColor="#8d483a" Command="{Binding ScanQRCodeCommand}" />
+                    <Button AbsoluteLayout.LayoutBounds="0,0,1,120" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Text="Enter QR Code" Font="Bold,20" Margin="20,80,20,0" HeightRequest="50" BackgroundColor="#8d483a" TextColor="White" Command="{Binding LoginByQRCodeCommand}" />
+                    <Button AbsoluteLayout.LayoutBounds="0,0,1,180" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Text="Login" Font="Bold,20" Margin="20,140,20,0" HeightRequest="50" TextColor="White" BackgroundColor="#8d483a" Command="{Binding LoginByPasswordCommand}" />
+                </AbsoluteLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
