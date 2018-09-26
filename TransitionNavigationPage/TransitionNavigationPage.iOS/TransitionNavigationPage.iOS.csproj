@@ -105,6 +105,13 @@
     <BundleResource Include="Resources\headerimg.jpg" />
     <BundleResource Include="Resources\logo.png" />
     <BundleResource Include="Resources\TransparentBrown.png" />
+    <BundleResource Include="Resources\background.png" />
+    <BundleResource Include="Resources\michelle_pfeiffer.png" />
+    <BundleResource Include="Resources\menu.png" />
+    <BundleResource Include="Resources\message.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\star.png" />
+    <BundleResource Include="Resources\users.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
